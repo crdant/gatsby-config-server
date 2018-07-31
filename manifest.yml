@@ -1,0 +1,9 @@
+applications:
+- name: gatsby-spring-cloud
+  disk_quota: 1G
+  instances: 1
+  memory: 512M
+  routes:
+  - route: gatsby-spring-cloud.cfapps.io
+  services:
+  - gatsbyjs-config-server
